@@ -3,21 +3,19 @@
 
 #include<string>
 
-class Squence{
+class Sequence{
 public:
-  Sequence (std::string);
-  int length ();
-  int numberOf (char);
-  std::string longestConsecutive ();
-  std::string longestRepeated ();
-  void Getlength();
-  void Getnumber();
-  void Getconsecutive();
-  void Getrepeated();
+  Sequence(std::string);
+  int length();
+  int numberOf(char);
+  std::string longestConsecutive();
+  std::string longestRepeated();
 private:
   std::string s;
+  std::string fname;
+  char base;
+  int len;
   int number;
 };
 
-#endif
-  
+#endif  
